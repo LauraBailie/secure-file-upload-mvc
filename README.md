@@ -1,7 +1,5 @@
 # Leak Alert Demo – ASP.NET MVC
 
-This project simulates the plumber verification pipeline described in the Leak Alert platform job description.
-
 The application demonstrates a secure contractor registration workflow built using ASP.NET MVC and SQL Server.
 
 ## Features
@@ -43,13 +41,25 @@ Security Logging
 - SQL Server
 - Git
 
+## How To Run Locally
+
+```bash
+git clone https://github.com/LauraBailie/secure-file-upload-mvc.git
+dotnet build
+dotnet run
+```
+
+Open: http://localhost:xxxx
+
+Check uploaded records in SQL Server Management Studio 22.
+
 ## Screenshots
 
-![Plumber Register](docs/images/Plumber Register.JPG)
+![Plumber Register](docs/images/Plumber-Register.JPG)
 
-![Submission Successful](docs/images/Submission Successful.JPG)
+![Submission Successful](docs/images/Submission-Successful.JPG)
 
-![Database Records](docs/images/Database Records.JPG)
+![Database Records](docs/images/Database-Records.JPG)
 
 ## Future Improvements
 

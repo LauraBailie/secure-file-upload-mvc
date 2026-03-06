@@ -1,0 +1,18 @@
+@model LeakAlertDemo.Models.Plumber
+
+<h2>Plumber Registration</h2>
+
+<form asp-action="Register" method="post" enctype="multipart/form-data">
+
+    <label>Name</label>
+    <input asp-for="Name" />
+
+    <label>License Number</label>
+    <input asp-for="LicenseNumber" />
+
+    <label>Verification Document (only .pdf, .jpg, .png accepted)</label>
+    <input type="file" name="file" />
+
+    <button type="submit">Register</button>
+
+</form>
